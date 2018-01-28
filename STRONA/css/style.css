@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font: 20px/1.5 Arial;    
+   background: #4F483A;
+}
+
+main{
+    min-height: 80%;
+}
+
+.conteiner{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: #4F483A;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: 4px solid #EBCE99;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 30px 0 20px;
+}
+
+header #logo{
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+
+#showcase{
+    min-height: 770px;
+    background: url(../zdj/image_blure.jpg) no-repeat -70px -220px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 3px #111111;
+    
+}
+
+#showcase p{
+    margin-top: 13%;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center, justify;
+}
+#showcase button {
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 34px;
+    margin: 14px 2px;
+    cursor: pointer;
+    
+}
+
+footer{
+    border-top: 4px solid #EBCE98;
+    background-color: #4F483A;
+    color: #ffffff;
+    text-align: center;
+    height: 5vh;
+    padding: 25px;
+    
+}
+
+
+@media(max-width: 768px){
+    
+
+        header #logo,
+        header nav,
+        header nav li{
+            float: none;
+            text-align: center;
+            width: 100%;
+
+        }
+    
+        header{
+            padding-bottom: 10px;    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
