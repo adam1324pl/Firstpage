@@ -1,2 +1,3 @@
 # Firstpage
-First Page
+Moja pierwsza strona stworzona za pomocą HTML i CSS. 
+
